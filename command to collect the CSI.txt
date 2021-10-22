@@ -1,4 +1,8 @@
-mcp -c 157/80 -C 1 -N 1 -m FC:34:97:45:4C:E8
+mcp -c 157/80 -C 1 -N 1 -m [ROUTER MAC_ADDRESS]
+asusYANLING: FC:34:97:45:4C:E8  192.168.1.1
+ASUS2G :     7C:10:C9:53:AA:D8  192.168.1.227
+RPi Rx: E5:5F:01:0F:90:00  192.168.1.109
+RPi Tx: DC:A6:32:F8:FA:58  192.168.1.90
 mcp -c 36/80 -C 1 -N 1 -m FC:34:97:45:4C:E8     [output] (the output band buffur is used for later -v)
 pkill wpa_supplicant
 ifconfig wlan0 up
